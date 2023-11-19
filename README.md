@@ -1,5 +1,9 @@
 # Canrad's blog
 
+因为一个仓库存两个内容，我老是会提交失败，所以源码和网页分开了。
+
+
+
 ## 基础指令
 ```shell
 hexo new "postName" 新建文章
