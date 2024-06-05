@@ -1,0 +1,8 @@
+options:
+  lineNumbers: true
+  spellcheck: false
+  imagePath: /assets
+editor:
+  lineNumbers: true
+  inputStyle: contenteditable
+  spellcheck: false
