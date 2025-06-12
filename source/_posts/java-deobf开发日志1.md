@@ -6,7 +6,7 @@ tags:
 
 
 
-说明：这篇文章仅仅是记录deobf的transformer的开发，或者算是一个小教程。代码存储在[https://github.com/luiox/jvm-things-archieve/tree/main/morpher-plugin](https://github.com/luiox/jvm-things-archieve/tree/main/morpher-plugin)
+说明：这篇文章仅仅是记录deobf的transformer的开发，或者算是一个小教程。代码存储在[https://github.com/luiox/jvm-things-archieve/blob/main/morpher-plugin/src/main/java/com/github/luiox/gruntdeobf/Sample001Pass1.java](https://github.com/luiox/jvm-things-archieve/blob/main/morpher-plugin/src/main/java/com/github/luiox/gruntdeobf/Sample001Pass1.java)
 
 为了方便，以及减少相同代码的反复编写，我已经开发了一些基础工具。地址是[https://github.com/luiox/morpher-api](https://github.com/luiox/morpher-api)。
 
@@ -26,15 +26,6 @@ repositories {
 
 ```kotlin
 dependencies {
-    implementation("org.ow2.asm:asm:9.8")
-    implementation("org.ow2.asm:asm-tree:9.8")
-    implementation("org.ow2.asm:asm-commons:9.8")
-    implementation("org.ow2.asm:asm-analysis:9.8")
-    implementation("org.ow2.asm:asm-util:9.8")
-    implementation("ch.qos.logback:logback-classic:1.5.18")
-    implementation("ch.qos.logback:logback-core:1.5.18")
-    implementation("org.jetbrains:annotations:23.0.0")
-    
     implementation("com.github.luiox:morpher-api:v1.1")
 }
 ```
