@@ -29,3 +29,14 @@ hexo help 查看帮助
 hexo version 查看Hexo的版本
 ```
 
+
+//    "hexo-abbrlink": "^2.2.1",
+
+```_config.yml
+permalink: :abbrlink.html
+abbrlink:
+alg: crc32
+rep: dec
+
+```
+
