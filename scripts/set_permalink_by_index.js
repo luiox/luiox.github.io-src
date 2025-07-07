@@ -1,8 +1,21 @@
 const fs = require('fs');
 const path = require('path');
+const { execSync } = require('child_process');
 
 console.log('set_permalink_by_index.js loaded');
 
+// 运行生成索引的脚本
+hexo.extend.filter.register('before_generate', function() {
+  const scriptPath = path.join(hexo.base_dir, 'generate_passage_index.js');
+  try {
+    execSync(`node "${scriptPath}"`, { stdio: 'inherit' });
+    console.log('已自动运行 generate_passage_index.js');
+  } catch (e) {
+    console.error('自动运行 generate_passage_index.js 失败', e);
+  }
+});
+
+// 修改文章的链接
 hexo.extend.filter.register('before_post_render', function(data) {
   const indexPath = path.join(hexo.base_dir, 'passage_index.json');
   if (!fs.existsSync(indexPath)) {

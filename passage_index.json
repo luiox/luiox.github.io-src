@@ -1,5 +1,5 @@
 {
-  "next_index": 19,
+  "next_index": 20,
   "posts": [
     {
       "path": "D:/WorkSpace/luiox.github.io-src/source/_posts/C语言之static误用导致的问题.md",
@@ -72,6 +72,10 @@
     {
       "path": "D:/WorkSpace/luiox.github.io-src/source/_posts/java-origincloud分析1.md",
       "id": 18
+    },
+    {
+      "path": "D:/WorkSpace/luiox.github.io-src/source/_posts/自制hexo索引.md",
+      "id": "19"
     }
   ]
 }
