@@ -1,5 +1,5 @@
 {
-  "next_index": 20,
+  "next_index": 21,
   "posts": [
     {
       "path": "D:/WorkSpace/luiox.github.io-src/source/_posts/C语言之static误用导致的问题.md",
@@ -76,6 +76,10 @@
     {
       "path": "D:/WorkSpace/luiox.github.io-src/source/_posts/自制hexo索引.md",
       "id": "19"
+    },
+    {
+      "path": "D:/WorkSpace/luiox.github.io-src/source/_posts/记录掉进micropython的pyb的Servo的坑.md",
+      "id": "20"
     }
   ]
 }
