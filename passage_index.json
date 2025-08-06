@@ -1,5 +1,5 @@
 {
-  "next_index": 22,
+  "next_index": 23,
   "posts": [
     {
       "path": "D:/WorkSpace/luiox.github.io-src/source/_posts/C语言之static误用导致的问题.md",
@@ -84,6 +84,10 @@
     {
       "path": "D:/WorkSpace/luiox.github.io-src/source/_posts/Gradle收集项目的所有依赖.md",
       "id": "21"
+    },
+    {
+      "path": "D:/WorkSpace/luiox.github.io-src/source/_posts/解决Keil编译速度过慢的问题.md",
+      "id": "22"
     }
   ]
 }
