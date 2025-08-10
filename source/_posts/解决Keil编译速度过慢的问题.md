@@ -2,7 +2,7 @@
 title: 解决Keil编译速度过慢的问题
 author: Canrad
 date: 2025-08-06 11:51:07
-tags: Daily
+tags: Embedded
 ---
 
 ## mspc manager占用CPU问题

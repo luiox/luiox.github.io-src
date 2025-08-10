@@ -1,5 +1,5 @@
 {
-  "next_index": 23,
+  "next_index": 24,
   "posts": [
     {
       "path": "D:/WorkSpace/luiox.github.io-src/source/_posts/C语言之static误用导致的问题.md",
@@ -88,6 +88,10 @@
     {
       "path": "D:/WorkSpace/luiox.github.io-src/source/_posts/解决Keil编译速度过慢的问题.md",
       "id": "22"
+    },
+    {
+      "path": "D:/WorkSpace/luiox.github.io-src/source/_posts/sfud移植和使用.md",
+      "id": "23"
     }
   ]
 }
