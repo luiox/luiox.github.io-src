@@ -1,5 +1,5 @@
 {
-  "next_index": 24,
+  "next_index": 25,
   "posts": [
     {
       "path": "D:/WorkSpace/luiox.github.io-src/source/_posts/C语言之static误用导致的问题.md",
@@ -92,6 +92,10 @@
     {
       "path": "D:/WorkSpace/luiox.github.io-src/source/_posts/sfud移植和使用.md",
       "id": "23"
+    },
+    {
+      "path": "D:/WorkSpace/luiox.github.io-src/source/_posts/C语言之宏定义命名导致的问题.md",
+      "id": "24"
     }
   ]
 }
