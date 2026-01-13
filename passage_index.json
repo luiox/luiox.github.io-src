@@ -1,5 +1,5 @@
 {
-  "next_index": 25,
+  "next_index": 26,
   "posts": [
     {
       "path": "D:/WorkSpace/luiox.github.io-src/source/_posts/C语言之static误用导致的问题.md",
@@ -96,6 +96,10 @@
     {
       "path": "D:/WorkSpace/luiox.github.io-src/source/_posts/C语言之宏定义命名导致的问题.md",
       "id": "24"
+    },
+    {
+      "path": "D:/WorkSpace/luiox.github.io-src/source/_posts/xmake开发stm32方案.md",
+      "id": "25"
     }
   ]
 }

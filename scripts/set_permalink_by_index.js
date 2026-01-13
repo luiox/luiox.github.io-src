@@ -36,3 +36,29 @@ hexo.extend.filter.register('before_post_render', function(data) {
   }
   return data;
 });
+
+// 强制使用我们分配的数字索引作为文章的 permalink
+hexo.extend.filter.register('post_permalink', function(data) {
+  const indexPath = path.join(hexo.base_dir, 'passage_index.json');
+  if (!fs.existsSync(indexPath)) return;
+  try {
+    const indexData = JSON.parse(fs.readFileSync(indexPath, 'utf-8'));
+    // 尝试确定文章的完整源文件路径（有些阶段 data 没有 full_source）
+    let full = data.full_source || null;
+    if (!full && data.source) {
+      full = path.isAbsolute(data.source) ? data.source : path.join(hexo.base_dir, data.source);
+    }
+    if (!full) {
+      // 无法确定源文件，跳过
+      return;
+    }
+    const norm1 = String(full).replace(/\\/g, '/');
+    const match2 = indexData.posts.find(p => p.path.replace(/\\/g, '/') === norm1);
+    if (match2) {
+      console.log('为文章设置permalink:', match2.id, '->', full);
+      return `article/${String(match2.id)}.html`;
+    }
+  } catch (e) {
+    console.error('post_permalink 错误', e);
+  }
+});
