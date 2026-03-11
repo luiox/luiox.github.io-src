@@ -32,8 +32,8 @@ if (page.archive){
 <% if (page.total > 1){ %>
   <nav id="page-nav" class="clearfix archive-nav">
     <%- paginator({
-      prev_text: '<span></span>Prev',
-      next_text: 'Next<span></span>'
+      prev_text: __('prev'),
+      next_text: __('next')
     }) %>
   </nav>
 <% } %>
