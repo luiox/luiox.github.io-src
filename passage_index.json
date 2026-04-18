@@ -1,5 +1,5 @@
 {
-  "next_index": 27,
+  "next_index": 28,
   "posts": [
     {
       "path": "D:/WorkSpace/luiox.github.io-src/source/_posts/C语言之static误用导致的问题.md",
@@ -104,6 +104,10 @@
     {
       "path": "D:/WorkSpace/luiox.github.io-src/source/_posts/SeggerRTT与Ozone调试技术.md",
       "id": "26"
+    },
+    {
+      "path": "D:/WorkSpace/luiox.github.io-src/source/_posts/二零二六年四月十八日.md",
+      "id": "27"
     }
   ]
 }
